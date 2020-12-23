@@ -11,5 +11,8 @@
     "url": "clear"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
 }
