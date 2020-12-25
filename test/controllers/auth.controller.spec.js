@@ -17,4 +17,16 @@ describe('Auth Controller', function(){
 
     });
 
+    describe('isAuthorizedAsync', function(){
+        it('should return false if not authorized', function(done){
+            authController.isAuthorizedAsync(['user'], 'user' , function(isAuth){
+                assert.equal(true, isAuth);
+                done();
+            });
+            
+        });
+
+
+    });
+
 });
